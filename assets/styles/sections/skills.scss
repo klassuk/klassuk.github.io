@@ -1,0 +1,49 @@
+@import "../variables";
+
+.skill {
+  padding-top: $block-top-offset;
+
+  span {
+    font-weight: 600;
+  }
+
+  .icon svg {
+    height: 1.3em;
+  }
+
+  .percent:after {
+    content: "%";
+    font-size: .8em;
+  }
+
+  .bar {
+    border: 2px solid var(--color-border-primary);
+    min-height: 1.3em;
+    display: flex;
+
+    @keyframes animateBar {
+      0% {transform: scaleX(0); opacity: 0}
+      100% {transform: scaleX(1); opacity: 1}
+    }
+
+    & > div {
+      box-sizing: border-box;
+      height: .7em;
+      max-width: 100%;
+      margin: 4px;
+      background-color: var(--color-border-primary);
+      -webkit-print-color-adjust: exact;
+
+      animation-name: animateBar;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 150ms;
+    }
+  }
+}
+
+@media print {
+  .skill {
+    display: none;
+  }
+}

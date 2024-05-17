@@ -1,0 +1,40 @@
+translations:
+  also-available-in: This CV is also available in
+  en: english language
+  ru: russian language
+
+years:
+  one: 'year'
+  other: 'years'
+
+about:
+  about-me: About me
+  contact: Contacts
+  download-cv: Download CV
+
+experience:
+  experience: Experience
+  stack: Stack
+
+skills:
+  skills: Skills
+  not-very-often: Use very rarely
+  infrastructure: Infrastructure (EN) # TODO: change or remove this
+  team-management: Orci varius natoque (EN) # TODO: change or remove this
+  architecture: Donec eget (EN) # TODO: change or remove this
+  levels:
+    very-high: Very high
+    high: High
+    above-medium: Above medium
+    medium: Medium
+    below-medium: Below medium
+    low: Low
+
+projects:
+  my-projects: Projects
+
+contact:
+  message-me: Message me
+  your-message: Your message
+  your-email: your@email.here
+  send: Send

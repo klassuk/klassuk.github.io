@@ -1,0 +1,64 @@
+{{ $about := .Site.GetPage "about" }}
+
+<section class="about-me">
+  <div class="container col-lg-12 col-xl-10 col-xxl-8 mb-2">
+    <div class="row">
+      <div class="col-lg-8">
+        {{ if $about }}
+        <h1 class="text-uppercase pb-3">{{ i18n "about.about-me" }}</h1>
+        <div class="mb-3 content">{{ $about.Content }}</div>
+        {{ end }}
+        <div class="d-lg-flex">
+          <div class="align-self-center">
+            {{ if .Site.Params.cvDownload.showButton -}}
+            <a class="btn fw-bold text-nowrap px-4 download-cv me-lg-3 mb-3 mb-lg-0 no-underline"
+               href="{{ printf "%s/%s" (strings.TrimRight "/" .Site.BaseURL) (strings.TrimLeft "/" .Site.Params.cvLink) | safeURL }}"
+               {{- if .Site.Params.cvDownload.downloadFileName }}
+                 download="{{ .Site.Params.cvDownload.downloadFileName | urlize }}"
+               {{- end -}}>
+              <span class="icon pe-1">{{ (resources.Get "icons/download.svg").Content | safeHTML }}</span>
+              {{ i18n "about.download-cv" }}
+            </a>
+            {{- end }}
+          </div>
+          <div class="align-self-center">
+            {{ if .IsTranslated }}
+            <div class="alt-languages fw-semibold">
+              <span class="icon pe-1">{{ (resources.Get "icons/language.svg").Content | safeHTML }}</span>
+              {{ i18n "translations.also-available-in" }}
+              {{- range $i, $e := .Translations -}}
+                {{- $langName := i18n (printf "translations.%s" $e.Lang) -}}
+                {{ if $i }}, {{ end }} <a href="{{ .Permalink }}">{{ if $langName }}{{ $langName }}{{ else }}{{ $e.Lang }}{{ end }}</a>
+              {{- end -}}.
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="extra col-lg-4 pt-4 mt-3 pt-lg-0 pm-lg-0 pb-1 text-lg-end">
+        {{ if .Site.Data.contacts.items }}
+        <h2 class="text-uppercase pb-3 mb-3 mb-lg-0">{{ i18n "about.contact" }}</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-1">
+            {{ range .Site.Data.contacts.items }}
+            <div class="d-flex flex-lg-row-reverse">
+              {{ if .icon }}
+              {{- $iconFile := resources.GetMatch (printf "icons/%s.svg" .icon) | resources.Minify -}}
+              {{- if $iconFile -}}
+              <div class="icon-box align-self-center ps-lg-3 ps-0 pe-3 pe-lg-0">
+                {{- if .link }}<a href="{{ .link }}" class="no-underline" target="_blank">{{ end -}}
+                <span class="icon">{{ $iconFile.Content | safeHTML }}</span>
+                {{- if .link }}</a>{{ end -}}
+              </div>
+              {{- else -}}
+              {{- errorf "Error: icon '%s.svg' is not found under 'assets/icons' folder" . -}}
+              {{- end -}}
+              {{- end }}
+              <div class="text-box align-self-center pb-1 my-2">{{- if .link }}<a href="{{ .link }}" target="_blank">{{ end -}}{{ replace (replace (.title | markdownify) "<p>" "") "</p>" "" | safeHTML }}{{- if .link }}</a>{{ end -}}</div>
+            </div>
+            {{- end }}
+          {{- end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

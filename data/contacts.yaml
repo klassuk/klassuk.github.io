@@ -1,0 +1,10 @@
+items:
+  - title: YOUR@EMAIL.HERE # TODO: change this
+    icon: email
+    link: 'mailto:YOUR@EMAIL.HERE' # TODO: change this
+  - title: Telegram {{< icon call-out >}} + {{< icon messages >}}
+    icon: telegram # TODO: change this
+    link: https://YOUR_TG_HERE.t.me/ # TODO: change this
+  - title: GitHub
+    icon: github
+    link: https://github.com/KLASSuK

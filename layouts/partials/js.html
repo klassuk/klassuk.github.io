@@ -1,0 +1,19 @@
+{{ template "_internal/google_analytics_async.html" . }}
+
+{{- $scripts := slice -}}
+
+{{/*
+{{- range slice
+  "https://cdnjs.cloudflare.com/ajax/libs/somescript.js"
+-}}
+  {{- $scripts = $scripts | append (resources.GetRemote . ) -}}
+{{- end -}}
+*/}}
+
+{{- $scripts = $scripts | append (resources.Get "scripts/main.js" | js.Build "main.js") -}}
+
+{{- with $scripts | resources.Concat "combined-scripts.js" | resources.Minify }}
+  {{- if gt (len .Content ) 16 -}}
+  <script defer src="{{ .Permalink }}?v={{ md5 (.Content) }}"></script>
+  {{- end -}}
+{{- end }}

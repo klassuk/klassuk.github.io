@@ -1,0 +1,78 @@
+<meta charset="utf-8">
+{{ if .Site.Params.noindex -}}
+<meta name="robots" content="noindex, nofollow">
+{{- end }}
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="preconnect" href="https://fonts.bunny.net/" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/webmanifest.json">
+<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3a3a3a">
+<meta name="theme-color" content="#ffffff">
+
+{{- if .IsHome }}
+{{ with .Site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
+{{- else }}
+<meta name="keywords" content="{{ if .Params.keywords -}}
+    {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
+    {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}">
+{{- end }}
+
+<meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
+    {{- .Summary | default (printf "%s - %s" .Title .Site.Title) }}{{- else }}
+{{- with .Site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
+
+<link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
+
+{{- if site.Params.analytics.google.SiteVerificationTag }}
+<meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}">
+{{- end }}
+
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
+
+{{- with resources.GetMatch .Site.Params.openGraphImageName -}}{{/* should be about 1200 x 630 pixels */}}
+  {{- $image := . -}}
+  {{- $image := $image.Resize "x630" | resources.Copy (urlize (printf "images/opengraph-%s%s" site.Language.Lang (path.Ext $image))) -}}
+  <meta property="og:image" content="{{ $image.Permalink }}" />
+  <meta property="og:image:width" content="{{ $image.Width }}" />
+  <meta property="og:image:height" content="{{ $image.Height }}" />
+{{- end }}
+
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+
+<style>{{ ((resources.Get "styles/minimal.scss") | resources.ToCSS | minify).Content | safeCSS }}</style>
+
+{{ $css := slice
+  (resources.GetRemote "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css")
+  ((resources.Get "styles/main.scss") | resources.ToCSS) -}}
+
+{{- $bundleCSS := $css | resources.Concat "styles.css" | resources.Minify -}}
+
+<link rel="stylesheet" href="{{ $bundleCSS.Permalink }}?v={{ md5 ($bundleCSS.Content) }}">
+
+{{ $deferredCSS := slice
+  "https://fonts.bunny.net/css2?family=Raleway:wght@400;500;600;700&display=swap" }}
+
+{{- range $deferredCSS }}
+<link rel="stylesheet" href="{{ . }}" media="tty" onload="this.media='all'">
+{{- end }}
+
+<noscript>
+  {{- range $deferredCSS }}
+  <link rel="stylesheet" href="{{ . }}" crossorigin="anonymous">
+  {{- end }}
+</noscript>
+
+{{ if .IsTranslated }}
+  {{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+  <link rel="prerender" href="{{ .Permalink }}" />
+  {{ end }}
+{{ end }}

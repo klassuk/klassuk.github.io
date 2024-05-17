@@ -1,0 +1,26 @@
+items:
+  ## Full example
+  #- title: Any ~~title~~
+  #  icon: email
+  #  progress: 56
+  #  progressTextAuto: true
+  #  progressText: Good **level**
+  #  description: Foo _bar_
+  - title: Duis vitae fermentum # TODO: change this
+    progress: 95 # TODO: change this
+    progressTextAuto: true
+  - title: Maecenas at est et diam # TODO: change this
+    progress: 90 # TODO: change this
+    progressTextAuto: true
+  - title: Nam pellentesque vulputate # TODO: change this
+    progress: 83 # TODO: change this
+    progressTextAuto: true
+  - title: '{{< i18n skills.architecture >}}' # TODO: change this
+    progress: 70 # TODO: change this
+    progressTextAuto: true
+  - title: '{{< i18n skills.team-management >}}' # TODO: change this
+    progress: 55 # TODO: change this
+    progressTextAuto: true
+  - title: Ansible & {{< i18n skills.infrastructure >}} # TODO: change this
+    progress: 50 # TODO: change this
+    progressTextAuto: true

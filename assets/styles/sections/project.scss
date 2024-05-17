@@ -1,0 +1,27 @@
+@import "../variables";
+
+.projects {
+  padding-top: $block-top-offset;
+
+  .project {
+    margin-bottom: 1.5rem;
+
+    .stargazers {
+      font-size: .7em;
+      font-weight: 600;
+      padding-left: .5em;
+
+      .icon svg {
+        height: 1.1em;
+        margin-bottom: .15em;
+        padding-right: .15em;
+      }
+    }
+  }
+}
+
+@media print {
+  .projects {
+    display: none;
+  }
+}

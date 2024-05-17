@@ -1,0 +1,120 @@
+<section class="experience">
+  <div class="container col-lg-12 col-xl-10 col-xxl-8">
+    <div class="row justify-content-between">
+      <div class="col-12 col-lg-7 working-experience">
+        <h3 class="pb-5 text-uppercase">{{ i18n "experience.experience" }}</h3>
+        <ul class="list list-unstyled ps-1">
+          {{ range sort (where .Site.Pages "Section" "experience") "Weight" "desc" }}
+          {{- if .Params.title }}
+          <li>
+            <h4 class="my-0">{{ .Params.title }}</h4>
+            {{- if .Params.project -}}<span>{{- if .Params.link -}}
+            <a href="{{ .Params.link }}" rel="nofollow">{{ .Params.project }}</a> &bull;
+            {{- else -}}
+            {{- .Params.project -}} &bull;
+            {{- end -}}</span>
+            {{- end -}}
+            {{ if .Params.period }} <span class="data">{{ .Params.period }}</span>{{- end }}
+            {{ if .Params.location -}} &bull; <span><i class="ti ti-map-pin"></i> {{ .Params.location }}</span>{{- end }}
+            <div class="content">
+              {{ .Content }}
+            </div>
+            {{ if .Params.stack }}
+            <ul class="list-inline">
+              <li class="list-inline-item">{{ i18n "experience.stack" }}:</li>
+              {{- range .Params.stack }}
+              <li class="list-inline-item"><span class="badge">{{ . }}</span></li>
+              {{- end -}}
+            </ul>
+            {{ end -}}
+          </li>
+          {{- end }}
+          {{- end }}
+        </ul>
+      </div>
+      <div class="col-12 col-lg-4">
+        {{ if .Site.Data.skills.items }}
+        <div class="skill">
+          <h3 class="text-uppercase pb-5 text-lg-end">{{ i18n "skills.skills" }}</h3>
+          {{ range .Site.Data.skills.items }}
+          <div class="pb-4">
+            <div class="d-flex">
+              {{ $progress := .progress | default 0 -}}
+              <span class="flex-fill">{{- if .icon }}
+                {{- $iconFile := resources.GetMatch (printf "icons/%s.svg" .icon) -}}
+                {{- if $iconFile -}}
+                <span class="icon">{{ $iconFile.Content | safeHTML }}</span>
+                {{- else -}}
+                {{- errorf "Error: icon '%s.svg' is not found under 'assets/icons' folder" . -}}
+                {{- end -}}
+              {{ end -}}{{ .title | markdownify }}</span>
+              {{ if .progressText }}
+              <span class="flex-fill text-end">{{ .progressText | markdownify }}</span>
+              {{ else }}
+                {{- if .progressTextAuto -}}
+                  <span class="flex-fill text-end">
+                  {{- if ge $progress 90 -}}
+                    {{- i18n "skills.levels.very-high" -}}
+                  {{- else if (ge $progress 80) -}}
+                    {{- i18n "skills.levels.high" -}}
+                  {{- else if (ge $progress 60) -}}
+                    {{- i18n "skills.levels.above-medium" -}}
+                  {{- else if (ge $progress 45) -}}
+                    {{- i18n "skills.levels.medium" -}}
+                  {{- else if (ge $progress 35) -}}
+                    {{- i18n "skills.levels.below-medium" -}}
+                  {{- else -}}
+                    {{- i18n "skills.levels.low" -}}
+                  {{- end -}}
+                  </span>
+                {{- else -}}
+                  <span class="flex-fill text-end percent">{{ $progress }}</span>
+                {{- end -}}
+              {{ end }}
+            </div>
+            <div class="rounded-pill mt-2 bar">
+              <div class="rounded-pill" style="width: {{ $progress }}%"></div>
+            </div>
+            {{- if .description }}
+            <div class="row pt-2 opacity-75">
+              <p class="my-0">{{ .description | markdownify }}</p>
+            </div>
+            {{- end }}
+          </div>
+          {{- end }}
+        </div>
+        {{- end }}
+        {{ if .Site.Data.projects.items }}
+        <div class="projects">
+          <h3 class="pb-5 text-uppercase text-lg-end">{{ i18n "projects.my-projects" }}</h3>
+          {{ range .Site.Data.projects.items }}
+          <div class="project text-lg-end">
+            <h5 class="mb-2">
+              <a href="{{ .link }}" target="_blank">{{ .title | markdownify }}</a>
+              {{- $githubToken := getenv "GITHUB_TOKEN" | default "" -}}
+              {{- $githubAuth := "" -}}
+              {{- if $githubToken -}}
+                {{- $githubAuth = printf "token %s" $githubToken -}}
+              {{- end -}}
+
+              {{- if .gitHubRepo }}
+              {{- with getJSON (printf "https://api.github.com/repos/%s" .gitHubRepo) (dict "Authorization" $githubAuth) -}}
+              {{ with .Err }}
+              {{ warnf "%s" . }}
+              {{- else -}}
+              <span class="stargazers">
+                <span class="icon">{{ (resources.Get "icons/star.svg").Content | safeHTML }}</span> {{ .stargazers_count }}
+              </span>
+              {{- end -}}
+              {{- end -}}
+              {{- end }}
+            </h5>
+            {{ .description | markdownify }}
+          </div>
+          {{- end }}
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>

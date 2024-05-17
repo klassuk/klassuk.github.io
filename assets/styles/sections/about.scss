@@ -1,0 +1,84 @@
+@import "../variables";
+
+.about-me {
+  & > .container {
+    padding-top: 70pt;
+  }
+
+  .content {
+    h1, h2, h3, h4, h5, h6 {
+      padding-bottom: .4em;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+  }
+
+  .download-cv {
+    color: var(--color-text-primary);
+    border-color: var(--color-border-primary);
+
+    .icon svg {
+      height: 1.5em;
+      padding-bottom: .3em;
+    }
+  }
+
+  .alt-languages {
+    .icon svg {
+      height: 1.3em;
+    }
+  }
+
+  .extra {
+    h1:before, h2:before {
+      display: none;
+    }
+
+    a {
+      font-weight: 600;
+    }
+
+    .text-box {
+      .icon svg {
+        height: 1.1em;
+        padding-bottom: .15em;
+      }
+    }
+
+    .icon-box {
+      .icon svg {
+        height: 2em;
+      }
+    }
+  }
+}
+
+@media print {
+  .about-me {
+    & > .container {
+      margin-left: 10%;
+      margin-right: 5%;
+      width: 85%;
+      max-width: 85%;
+      padding-top: 30pt; // for pdf
+    }
+
+    .download-cv {
+      display: none;
+    }
+
+    .alt-languages {
+      display: none;
+    }
+
+    .extra {
+      .row > * { // copy-paste bootstrap `row-cols-sm-2` rule
+        flex: 0 0 auto;
+        width: 50%;
+      }
+    }
+  }
+}

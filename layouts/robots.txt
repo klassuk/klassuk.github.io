@@ -1,0 +1,11 @@
+Host: {{ .Site.BaseURL }}
+
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+{{ if .Site.Params.noindex -}}
+Disallow: /
+{{- end }}

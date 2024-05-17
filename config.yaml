@@ -1,0 +1,41 @@
+enableEmoji: true
+noChmod: true # Don’t sync permission mode of files
+noTimes: true # Don’t sync modification time of files
+disableHugoGeneratorInject: true
+
+caches:
+  getJson: {dir: ':resourceDir/_cache', maxAge: 6h}
+  getResource: {dir: ':resourceDir/_cache', maxAge: 6h}
+
+security:
+  funcs: {getenv: ['^HUGO_', '^GITHUB_']}
+
+enableRobotsTXT: true
+disableKinds: [RSS, taxonomy, section, term] # page, home, sitemap, robotsTXT, 404
+
+params:
+  noindex: true
+  cvDownload:
+    showButton: true
+    downloadFileName: resume_file_name # TODO: change this
+  keywords: [KLASSuK, cv] # TODO: change this
+  description: KLASSuK's CV # TODO: change this
+
+languageCode: en-us
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    title: KLASSuK's CV # TODO: change this
+    weight: 10
+    params:
+      cvLink: /cv.pdf
+      openGraphImageName: opengraph-en.png
+
+  ru:
+    languageName: Русский
+    title: Резюме
+    weight: 5
+    params:
+      cvLink: /ru/cv.pdf
+      openGraphImageName: opengraph-ru.png

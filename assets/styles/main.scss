@@ -1,0 +1,63 @@
+@import "variables";
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+code {
+  color: var(--color-text-primary);
+}
+
+a {
+  $underline-width: .13em;
+
+  &, &:hover {
+    color: var(--color-text-primary);
+  }
+
+  &:not(.no-underline) {
+    border-bottom: $underline-width solid var(--color-text-light);
+    text-decoration: none;
+    transition: border-bottom-color 150ms linear, border-bottom-width 100ms linear;
+
+    &:hover {
+      border-bottom-color: var(--color-link-underline);
+      border-bottom-width: $underline-width * 1.5;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -.035em;
+}
+
+h1, h2, h3 {
+  position: relative;
+  font-weight: 700;
+}
+
+h1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -.15em;
+  width: 1em;
+  height: .15em;
+  background: var(--color-text-primary);
+}
+
+@import "sections/about";
+@import "sections/experience";
+@import "sections/skills";
+@import "sections/project";
+@import "sections/contact";
+
+@media print {
+  body {
+    padding-top: $block-top-offset;
+  }
+}
+

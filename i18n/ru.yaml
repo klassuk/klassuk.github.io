@@ -1,0 +1,42 @@
+translations:
+  also-available-in: Это резюме так же доступно на
+  en: английском языке
+  ru: русском языке
+
+years:
+  one: 'год'
+  few: 'года'
+  many: 'лет'
+  other: 'лет'
+
+about:
+  about-me: Обо мне
+  contact: Контакты
+  download-cv: Скачать резюме
+
+experience:
+  experience: Опыт работы
+  stack: Стек
+
+skills:
+  skills: Навыки
+  not-very-often: Использую довольно редко
+  infrastructure: Инфраструктура (RU) # TODO: change or remove this
+  team-management: Orci varius natoque (RU) # TODO: change or remove this
+  architecture: Donec eget (RU) # TODO: change or remove this
+  levels:
+    very-high: Очень высокий
+    high: Высокий
+    above-medium: Выше среднего
+    medium: Средний
+    below-medium: Ниже среднего
+    low: Низкий
+
+projects:
+  my-projects: Проекты
+
+contact:
+  message-me: Написать
+  your-message: Текст сообщения
+  your-email: your@email.here
+  send: Отправить
