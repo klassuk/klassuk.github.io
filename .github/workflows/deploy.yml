@@ -1,10 +1,11 @@
-name: update-cv
+name: 🚀 Deploy
 
 on:
   workflow_dispatch: {}
   schedule: [cron: '0 0 */1 * *']
   push:
     branches: [master, main]
+    paths-ignore: ['.devcontainer/**', README.md]
 
 concurrency:
   group: ${{ github.ref }}
