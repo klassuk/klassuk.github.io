@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "0.101.0"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "postCreateCommand": "hugo server --watch --baseURL 'http://127.0.0.1:1313/' --port 1313 --bind 0.0.0.0",
+  "forwardPorts": [1313]
+}
