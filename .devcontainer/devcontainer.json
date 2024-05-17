@@ -1,11 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.base.schema.json",
-  "image": "debian:bookworm",
+  "build": { "dockerfile": "Dockerfile" },
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
       "version": "0.101.0",
       "extended": true
-    }
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/sshd:1": {}
   },
   "customizations": {
     "vscode": {
@@ -14,6 +16,13 @@
       ]
     }
   },
-  // "postCreateCommand": "nohup bash -c 'hugo server --watch --port 1313 &'",
-  "forwardPorts": [1313]
+  "postCreateCommand": "nohup bash -c 'hugo server --watch --port 1313 &'",
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo",
+      "protocol": "http",
+      "onAutoForward": "openBrowser"
+    }
+  }
 }
