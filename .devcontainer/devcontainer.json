@@ -16,7 +16,7 @@
       ]
     }
   },
-  "postCreateCommand": "nohup bash -c 'hugo server --watch --baseURL \"https://$CODESPACE_NAME-1313.app.github.dev/\" --port 1313 &'",
+  "postCreateCommand": "nohup bash -c 'hugo server --watch --baseURL \"https://$CODESPACE_NAME-1313.app.github.dev/\" --appendPort false --port 1313 &'",
   "forwardPorts": [1313],
   "portsAttributes": {
     "1313": {
