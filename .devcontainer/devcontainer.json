@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.base.schema.json",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "debian:bookworm",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
       "version": "0.101.0",
@@ -14,14 +14,6 @@
       ]
     }
   },
-  "postCreateCommand": "nohup bash -c 'hugo server --watch --port 1313 &'",
-  "forwardPorts": [1313],
-  "portsAttributes": {
-    "1313": {
-      "label": "Hugo",
-      "onAutoForward": "openBrowserOnce",
-      "protocol": "http",
-      "requireLocalPort": true
-    }
-  }
+  // "postCreateCommand": "nohup bash -c 'hugo server --watch --port 1313 &'",
+  "forwardPorts": [1313]
 }
