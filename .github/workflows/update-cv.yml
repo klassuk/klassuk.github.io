@@ -63,14 +63,14 @@ jobs:
         env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
 
       - uses: actions/download-artifact@v4
-        with: {name: cv-en.pdf, path: ./cv/dist}
+        with: {name: cv-en.pdf, path: ./dist}
 
       - uses: actions/download-artifact@v4
-        with: {name: cv-ru.pdf, path: ./cv/dist/ru}
+        with: {name: cv-ru.pdf, path: ./dist/ru}
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
-        with: {path: cv/dist}
+        with: {path: ./dist}
 
       - uses: actions/deploy-pages@v4
