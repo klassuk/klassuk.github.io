@@ -21,7 +21,7 @@ params:
   keywords: [SamoylovDN, cv]
   description: SamoylovDN CV
 
-defaultContentLanguage: ru
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
   en:
@@ -34,7 +34,7 @@ languages:
       openGraphImageName: opengraph-en.png
 
   ru:
-    languageCode: ru-RU
+    languageCode: ru-ru
     languageName: Русский
     title: Резюме - Самойлов Д.Н. (Тестировщик)
     weight: 5
