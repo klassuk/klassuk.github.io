@@ -22,7 +22,7 @@ params:
   description: SamoylovDN CV
 
 languageCode: en-us
-defaultContentLanguage: en
+defaultContentLanguage: ru
 languages:
   en:
     languageName: English
