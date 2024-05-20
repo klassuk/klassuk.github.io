@@ -1,11 +1,11 @@
-### Lorem ipsum dolor sit amet, consectetur adipiscing elit
+### Тестировщик - QA Engineer
 
-> TODO: change this file content
+Меня зовут Дмитрий. Мне {{< age year=1984 month=4 >}} лет. В профессию тестировщик пришел 7 лет назад. Имею высшее образование по специальности "Математическое обеспечение и администрирование информационных систем". С 2018 года в комерческих проектах.
+Я веселый, находчивый и неординарный человек. Имею собственное видение на поставленные задачи(а также ставлю их сам) и умею находить оптимальные решения. Инициативен и ответственен, довожу дела до логического завершения. Стремлюсь постоянно развиваться и совершенствоваться. Быстро обучаюсь новому и эффективно применяю полученные знания на практике. В команде чувствую себя комфортно и быстро нахожу общий язык с коллективом.
 
-My name is Dmitry, nullam eget ex nec augue dictum consequat. Nullam a laoreet risus.
+Я заинтересован в автоматизации и хочу развиваться в этом направлении. 
+Успешно справляюсь с ручным тестированием, обожаю классическое ad-hoc тестирование(исследовательское) а также сложные задачи е2е тестирования. Работаю в Linux/Windows/MacOs.
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut condimentum sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Предпочитаю удаленный формат работы, хотя это не является критичным. Базово изучал PHP, на нем получил основной опыт написания е2е тестов. В настоящее время изучаю Python и основы Go.
 
-Pellentesque tempor tortor at nisi tincidunt rhoncus. Maecenas egestas commodo augue id pulvinar. Cras in nibh tortor. Curabitur a urna quis felis auctor finibus vel in dui. Sed sollicitudin tellus congue dui ullamcorper, vitae ullamcorper velit pretium.
-
-Nam et justo semper, eleifend dolor non, pharetra ligula.
+В свободное время увлекаюсь практической стрельбой, настольным теннисом, дартсом и карточными играми, особенно покером. Люблю мото-спорт.

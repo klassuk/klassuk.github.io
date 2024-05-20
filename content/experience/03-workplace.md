@@ -1,17 +1,14 @@
 ---
-title: Nulla facilisi (ENGLISH)
-project: Nullam
-period: 20XX-present
-link: https://facilisi.com/
-location: Nullam a laoreet risus
-stack: [Ut, interdum, lorem, quis, libero, viverra, porttitor]
+title: Инженер по связи и защите информации
+project: ОМВД России
+period: 2016-2018
+link: https://it.mvd.ru/
+location: Россия, Тюменская область
+stack: [Active Directory, RDP, VipNet]
 weight: 30
 ---
 
-> TODO: change this file content
-
-- Donec eget ipsum commodo, feugiat arcu in, dictum lacus. In faucibus magna sit amet libero ullamcorper dignissim
-- Donec porttitor molestie libero at aliquet. Morbi dapibus faucibus erat et fermentum. Praesent ac nisl risus
-- Aenean euismod eu magna eu facilisis. Nam lacus justo, efficitur id lectus ut, dapibus facilisis ex
-- Morbi tincidunt tempor est, ac fringilla turpis fringilla vitae. Sed efficitur urna sed dui blandit malesuada
-- Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec rutrum nec orci laoreet faucibus
+Группа информационных технологий связи и защиты информации.
+Обеспечение и наладка связи между подразделениями, её методы и организация, архитектура. Обеспечение безопасности на уровне сетей, разделение сетей - интернет сети и ведомственных каналов и т.д. Тестирование веб модулей ведомственной сети, написание баг репортов и чек листов.
+Организация всех проводимых работ, консультации сотрудников а также организация функционирования и распределение работ, командировочные решения и выезды...
+Пуско-наладка рабочих мест(включая удаленных).

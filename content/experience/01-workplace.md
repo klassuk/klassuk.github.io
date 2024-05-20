@@ -1,17 +1,32 @@
 ---
-title: Nulla facilisi (ENGLISH)
-project: Nullam
-period: 2012-2017
-link: https://facilisi.com/
-location: Nullam a laoreet risus
-stack: [Ut, interdum, lorem, quis, libero, viverra, porttitor]
+title: Bitlab (ENGLISH)
+project: Noones.com
+period: 2022-2023
+link: https://Noones.com/
+location: USA
+stack: [PHP, GitLAB, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana / Grafana, k8s/k9s]
 weight: 10
 ---
 
-> TODO: change this file content
+Процентное соотношение тестирования:
+backend (60%), frontend (35%), mobile (5%).
 
-- Donec eget ipsum commodo, feugiat arcu in, dictum lacus. In faucibus magna sit amet libero ullamcorper dignissim
-- Donec porttitor molestie libero at aliquet. Morbi dapibus faucibus erat et fermentum. Praesent ac nisl risus
-- Aenean euismod eu magna eu facilisis. Nam lacus justo, efficitur id lectus ut, dapibus facilisis ex
-- Morbi tincidunt tempor est, ac fringilla turpis fringilla vitae. Sed efficitur urna sed dui blandit malesuada
-- Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec rutrum nec orci laoreet faucibus
+Обязанности:
+-Обеспечение высокого качества программного продукта и создание и поддержание базы "end to end" тестов программного продукта noones.com и связанных сервисов.
+-Работа с микросервисной архитектурой и монолитными приложениями.
+-Ведение репозитория end2end тестирования, проведение ревью кода и улучшение качества тестов.
+-Аудит логики существующих, изменяемых и добавляемых компонентов.
+-Внесение улучшений в продукт, направленных на повышение фокуса пользователей, улучшение пользовательского опыта и повышение стабильности приложения.
+
+Достижения:
+-Внедрение стратегии "Shifting Left Testing" в команде для раннего выявления и решения проблем.
+-Выявление и исправление логических ошибок, напрямую влияющих на размеры клиентских комиссий, что привело к увеличению доходов компании.
+-Управление задачами на всех этапах разработки, начиная с утверждения и обоснования задачи и заканчивая выкаткой в продакт.
+-Участие в поддержке и написании е2е тестов на Php(CI\CD и локально).
+-Анализ и правки в существующие тесты на Kotlin(Flaky tests).
+-Занимался мониторингом и разбором возникающих проблем и инцидентов.
+-Разработка системы проверки ключевых функциональностей wallet сервиса с использованием e2e тестов.
+-Участие в первичной разработке и внедрении mock сервиса(отвечающего за проведение транзакций).
+-Участие в разработке и развертывании проекта (web \ mobile app) с нуля.
+
+Мой опыт работы в Noones.com не только способствовал улучшению качества продукта, но и принес значительную пользу компании за счет увеличения доходов и повышения удовлетворенности пользователей.

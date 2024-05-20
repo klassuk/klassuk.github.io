@@ -1,17 +1,24 @@
 ---
-title: Nulla facilisi
-project: Nullam
-period: 2012-2017
-link: https://facilisi.com/
-location: Nullam a laoreet risus
-stack: [Ut, interdum, lorem, quis, libero, viverra, porttitor]
+title: QA Lead Engineer
+project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / checkperson.ru и пр.
+period: 2018-2022
+link: https://spectrumdata.ru/
+location: Россия, г.Екатеринбург
+stack: [PHP, GitLAB, Kibana / Grafana]
 weight: 20
 ---
 
-> TODO: change this file content
+Процентное соотношение тестирования:
+backend (40%), frontend (35%), mobile (25%).
 
-- Donec eget ipsum commodo, feugiat arcu in, dictum lacus. In faucibus magna sit amet libero ullamcorper dignissim
-- Donec porttitor molestie libero at aliquet. Morbi dapibus faucibus erat et fermentum. Praesent ac nisl risus
-- Aenean euismod eu magna eu facilisis. Nam lacus justo, efficitur id lectus ut, dapibus facilisis ex
-- Morbi tincidunt tempor est, ac fringilla turpis fringilla vitae. Sed efficitur urna sed dui blandit malesuada
-- Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec rutrum nec orci laoreet faucibus
+Как QA инженер, моя задача заключалась в обеспечении высокого уровня качества и функциональности разрабатываемого кода, а также в разработке и применении эффективных подходов к тестированию различных продуктов, включая API, веб-приложения, мобильные приложения и авто-тесты, интегрированные в процесс непрерывной интеграции (CI).
+
+Я специализируюсь на использовании Selenium Webdriver и Laravel Dusk для автоматизации тестирования веб-приложений. В течение работы в компании я также выполнял задачи PHP-разработчика, что позволило мне не только решать мелкие задачи, но и активно участвовать в разработке и связывании логики продуктов.
+
+Мои обязанности включали параллельную работу над несколькими проектами, эффективное взаимодействие с разработчиками, руководителями проектов, дизайнерами, SEO-специалистами и другими участниками команды. Я активно принимал участие в развитии проектов, начиная от программирования и организации до проведения мотивационных мероприятий, брейншторминга, лекций и обучения. Кроме того, я занимался генерацией и контролем задач, проведением согласований на различных уровнях и отстаиванием важных задач для бизнеса.
+
+Моя работа также включала контроль над процессом выкатки продуктов, принятие решений о релизах и откатах, проведение регрессионных тестов по чек-листам и/или smoke-тестирование, а также стресс-тестирование в условиях работы с большим количеством разработчиков (более 12 на 1 тестировщика). Я также проводил собеседования и лидировал над группой тестирования.
+
+Кроме того, я активно поддерживал написанные авто-тесты в актуальном состоянии, следя за зависимостями, стилем кода и архитектурой, обеспечивая их эффективное функционирование.
+
+Моя работа в компании не ограничивалась перечисленными обязанностями, и я готов поделиться дополнительной информацией о моем вкладе и достижениях при личной встрече.

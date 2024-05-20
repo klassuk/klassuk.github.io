@@ -1,10 +1,10 @@
 items:
-  - title: YOUR@EMAIL.HERE # TODO: change this
+  - title: КОНТАКТЫ
     icon: email
-    link: 'mailto:YOUR@EMAIL.HERE' # TODO: change this
+    link: 'mailto:samoylov.dmtiry@gmail.com'
   - title: Telegram {{< icon call-out >}} + {{< icon messages >}}
-    icon: telegram # TODO: change this
-    link: https://YOUR_TG_HERE.t.me/ # TODO: change this
+    icon: telegram
+    link: https://devnullable.t.me/
   - title: GitHub
     icon: github
     link: https://github.com/KLASSuK
