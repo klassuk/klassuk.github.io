@@ -8,7 +8,6 @@ stack: [PHP, GitLAB, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana / Gr
 weight: 40
 ---
 
-Процентное соотношение тестирования:
 backend (60%), frontend (35%), mobile (5%).
 
 Обязанности:
