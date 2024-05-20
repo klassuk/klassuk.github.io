@@ -17,16 +17,16 @@ params:
   noindex: true
   cvDownload:
     showButton: true
-    downloadFileName: resume_file_name # TODO: change this
-  keywords: [KLASSuK, cv] # TODO: change this
-  description: KLASSuK's CV # TODO: change this
+    downloadFileName: SamoylovDN-QA-Engineer
+  keywords: [SamoylovDN, cv]
+  description: SamoylovDN CV
 
 languageCode: en-us
 defaultContentLanguage: en
 languages:
   en:
     languageName: English
-    title: KLASSuK's CV # TODO: change this
+    title: CV-SamoylovDN-QA-Engineer
     weight: 10
     params:
       cvLink: /cv.pdf
@@ -34,7 +34,7 @@ languages:
 
   ru:
     languageName: Русский
-    title: Резюме
+    title: Резюме-СамойловДН-Тестировщик
     weight: 5
     params:
       cvLink: /ru/cv.pdf
