@@ -17,7 +17,7 @@ params:
   noindex: true
   cvDownload:
     showButton: true
-    downloadFileName: SamoylovDN-QA-Engineer
+    downloadFileName: sv-SamoylovDN-QA-Engineer
   keywords: [SamoylovDN, cv]
   description: SamoylovDN CV
 
@@ -26,7 +26,7 @@ defaultContentLanguage: en
 languages:
   en:
     languageName: English
-    title: CV-SamoylovDN-QA-Engineer
+    title: CV - SamoylovDN QA-Engineer
     weight: 10
     params:
       cvLink: /cv.pdf
@@ -34,7 +34,7 @@ languages:
 
   ru:
     languageName: Русский
-    title: Резюме-СамойловДН-Тестировщик
+    title: Резюме - Самойлов Д.Н. (Тестировщик)
     weight: 5
     params:
       cvLink: /ru/cv.pdf
