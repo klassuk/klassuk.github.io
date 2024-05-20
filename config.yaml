@@ -21,7 +21,7 @@ params:
   keywords: [SamoylovDN, cv]
   description: SamoylovDN CV
 
-defaultContentLanguage: en
+defaultContentLanguage: ru
 languages:
   en:
     languageCode: en-us
