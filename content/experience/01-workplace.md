@@ -3,32 +3,32 @@ title: Bitlab
 project: Noones.com
 period: 2022-2023
 link: https://Noones.com/
-location: USA (удаленно)
+location: USA (remote)
 stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana, k8s/k9s]
 weight: 40
 ---
 
-Обязанности:
+Responsibilities:
 
-- Обеспечение высокого качества программного продукта и создание и поддержание базы E2E тестов noones.com и связанных сервисов.
-- Работа с микросервисной архитектурой и монолитными приложениями.
-- Ведение репозитория E2E тестирования, проведение ревью кода и улучшение качества тестов.
-- Аудит логики существующих, изменяемых и добавляемых компонентов.
-- Внесение улучшений в продукт, направленных на повышение фокуса пользователей, улучшение пользовательского опыта и повышение стабильности приложения.
+- Ensuring the high quality of the software product and creating and maintaining the E2E test suite for noones.com and related services.
+- Working with microservice architecture and monolithic applications.
+- Maintaining the E2E testing repository, conducting code reviews, and improving the quality of tests.
+- Auditing the logic of existing, modified, and new components.
+- Implementing product improvements aimed at enhancing user focus, improving user experience, and increasing application stability.
 
 
-Достижения:
+Achievements:
 
-- Внедрение стратегии "Shifting Left Testing" в команде для раннего выявления и решения проблем.
-- Выявление и исправление логических ошибок, напрямую влияющих на размеры клиентских комиссий, что привело к увеличению доходов компании.
-- Управление задачами на всех этапах разработки, начиная с утверждения и обоснования задачи и заканчивая выкаткой в релиз.
-- Участие в поддержке и написании E2E тестов на PHP (CI/CD и локально).
-- Анализ и правки в существующих тестов на Kotlin (Flaky tests).
-- Занимался мониторингом и разбором возникающих проблем и инцидентов.
-- Разработка системы проверки ключевых функциональностей сервиса платежей с использованием E2E тестов.
-- Участие в первичной разработке и внедрении mock сервиса (отвечающего за проведение транзакций).
-- Участие в разработке и развертывании проекта (web / mobile app) с нуля.
+- Implemented a "Shifting Left Testing" strategy within the team for early detection and resolution of issues.
+- Identified and corrected logical errors that directly impacted client fees, resulting in increased company revenue.
+- Managed tasks at all stages of development, from approval and justification to release.
+- Participated in the support and creation of E2E tests in PHP (both CI/CD and locally).
+- Analyzed and fixed existing tests in Kotlin (flaky tests).
+- Monitored and resolved arising issues and incidents.
+- Developed a system for verifying key functionalities of the payment service using E2E tests.
+- Contributed to the initial development and implementation of a mock service responsible for transaction processing.
+- Took part in the development and deployment of a project (web/mobile app) from scratch.
 
-Мой опыт работы в Noones.com не только способствовал улучшению качества продукта, но и принес значительную пользу компании за счет увеличения доходов и повышения удовлетворенности пользователей.
+My experience at noones.com not only improved product quality but also brought significant benefits to the company by increasing revenue and enhancing user satisfaction.
 
 backend (60%), frontend (35%), mobile (5%).

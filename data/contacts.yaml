@@ -1,7 +1,7 @@
 items:
-  - title: КОНТАКТЫ
+  - title: cv-klassuk@10-01.win
     icon: email
-    link: 'mailto:samoylov.dmtiry@gmail.com'
+    link: 'mailto:cv-klassuk@10-01.win'
   - title: Telegram {{< icon call-out >}} + {{< icon messages >}}
     icon: telegram
     link: https://devnullable.t.me/

@@ -1,21 +1,21 @@
 ---
 title: QA Lead Engineer
-project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / и пр.
+project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / and etc.
 period: 2018-2022
 link: https://spectrumdata.ru/
-location: Россия, г.Екатеринбург
+location: Russia, Ekaterinburg
 stack: [PHP, GitLab, Kibana/Grafana, Selenium Webdriver]
 weight: 30
 ---
 
-Как QA инженер, моя задача заключалась в обеспечении высокого уровня качества и функциональности разрабатываемого продукта, а также в разработке и применении эффективных подходов к тестированию различных сервисов, включая API, веб-приложения, мобильные приложения и авто-тесты, интегрированные в процесс непрерывной разработки (CI/CD).
+As a QA Engineer, my role was to ensure the high quality and functionality of the developed product, as well as to develop and implement effective testing approaches for various services, including APIs, web applications, mobile applications, and automated tests integrated into the continuous development process (CI/CD).
 
-Специализировался на использовании Selenium Webdriver и Laravel Dusk для автоматизации тестирования веб-приложений. В течение работы в компании я также выполнял несложные задачи PHP-разработчика, что позволило мне не только решать мелкие задачи, но и активно участвовать в разработке.
+I specialized in using Selenium WebDriver and Laravel Dusk for web application test automation. During my time at the company, I also performed basic PHP development tasks, which allowed me to not only address minor issues but also actively participate in development.
 
-Мои обязанности включали параллельную работу над несколькими проектами, эффективное взаимодействие с разработчиками, руководителями проектов, дизайнерами, SEO-специалистами и другими участниками команды. Я активно принимал участие в развитии проектов, начиная от программирования и организации до проведения мотивационных мероприятий, брейншторминга, лекций и обучения. Кроме того, я занимался генерацией и контролем задач, проведением согласований на различных уровнях и отстаиванием важных задач для бизнеса.
+My responsibilities included working on multiple projects simultaneously, effectively collaborating with developers, project managers, designers, SEO specialists, and other team members. I actively contributed to project development, from programming and organization to conducting motivational events, brainstorming sessions, lectures, and training. Additionally, I was involved in generating and managing tasks, coordinating approvals at various levels, and advocating for important business objectives.
 
-Моя работа также включала контроль над процессом выкатки продуктов, принятие решений о релизах и откатах, проведение регрессионных тестов по чек-листам и/или smoke-тестирование, а также стресс-тестирование в условиях работы с большим количеством разработчиков (более 12 на 1 тестировщика). Я также проводил собеседования и управлял группой тестирования.
+My work also involved overseeing product rollout processes, making release and rollback decisions, conducting regression tests according to checklists and/or smoke testing, as well as stress testing in an environment with a large number of developers (more than 12 developers per tester). I also conducted interviews and managed the testing team.
 
-Кроме того, я активно поддерживал написанные авто-тесты в актуальном состоянии, следя за зависимостями, стилем кода и архитектурой, обеспечивая их эффективное функционирование.
+Moreover, I actively maintained automated tests, ensuring their dependencies, code style, and architecture were up-to-date, and guaranteeing their effective operation.
 
 backend (40%), frontend (35%), mobile (25%).

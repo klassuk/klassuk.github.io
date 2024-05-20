@@ -1,17 +1,17 @@
 ---
-title: Инженер по связи и защите информации
-project: ОМВД России
+title: Communications and Information Protection Engineer
+project: MVD Russia
 period: 2016-2018
 link: https://it.mvd.ru/
-location: Россия, Тюменская область
+location: Russia, Tyumen Region
 stack: [Active Directory, RDP, VipNet, Cisco, MicroTik]
 weight: 20
 ---
 
-Группа информационных технологий связи и защиты информации.
-Занимался обеспечением и наладкой связей между подразделениями, их методы и организацией архитектуры. Обеспечивал безопасность на уровне сетей - интернет сети и ведомственных каналов и т.д. 
-Тестированием веб модулей ведомственной сети, написанием баг репортов и чек листов.
+Information Technology, Communications, and Information Security Group
+I was responsible for establishing and optimizing communication between departments, developing methods, and organizing the architecture. I ensured network security, including internet and departmental channels.
+I tested web modules of the departmental network, wrote bug reports, and created checklists.
 
-Обеспечивал настройку и поддержку всех инфраструктурной части на базе оборудования Cisco и MicroTik.
+I provided setup and support for all infrastructure components based on Cisco and MikroTik equipment.
 
-Занимался пуско-наладкой рабочих мест (ИСОД) (включая удаленных).
+I also handled the commissioning and setup of workstations (ISOD), including remote workstations.

@@ -1,13 +1,13 @@
 ---
-title: Инженер-программист
-project: ОАО "Авиакомпания "ЮТэйр" и Сургут Аэропорт
+title: Software Engineer
+project: UTair Aviation JSC and Surgut Airport
 period: 2006-2018
 link: https://utair.ru/
-location: Россия, Тюменская область
+location: Russia, Tyumen Region
 stack: [Active Directory, RDP, PL/SQL, Oracle, Delphy6, BDE administator, Альфа, 1С]
 weight: 10
 ---
 
-Обеспичивал сопровождение и поддержку программных продуктов (1С, Альфа, самописные продукты, и все остальное ПО включая PL/SQL, Oracle, Delphy6, BDE administrator).
-Поднимал и обеспечивал работоспособность всей бухгалтерии, находил решения которые в последствии стали использоваться в других подразделениях и регионах.
-Проводил большое количество тестов связанных с функционалом, занимался его описанием и доработкой, писал багрепорты и производил ручное тестирование.
+I provided maintenance and support for software products (1C, Alpha, custom-built applications, and other software including PL/SQL, Oracle, Delphi 6, and BDE Administrator).
+I Raised and ensured the functionality of the accounting department, developing solutions that were subsequently adopted by other departments and regions.
+I conducted extensive functional testing, documented and improved functionalities, wrote bug reports, and performed manual testing.

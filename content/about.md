@@ -1,25 +1,19 @@
-### Тестировщик - QA Engineer
+### QA Engineer
 
-Меня зовут Дмитрий, мне {{< age year=1984 month=4 >}}.
-В профессию тестировщика пришел 7 лет назад.
-Имею высшее образование по специальности "Математическое обеспечение и администрирование информационных систем".
+My name is Dmitry, and I am {{< age year=1984 month=4 >}}. I entered the QA profession 7 years ago. I have a higher education degree in "Mathematical Software and Administration of Information Systems."
 
-С 2018 года работаю в коммерческих проектах.
+Since 2018, I have been working on commercial projects.
 
-Я веселый, находчивый и неординарный человек. Имею собственное видение на поставленные задачи (а также ставлю их сам) и умею находить оптимальные решения. 
-Инициативен и ответственен, довожу дела до логического завершения.
+I am a cheerful, resourceful, and unique individual. I have my own perspective on assigned tasks (and often set them myself) and excel at finding optimal solutions. I am proactive and responsible, always bringing tasks to their logical conclusion.
 
-Стремлюсь постоянно развиваться и совершенствоваться. Быстро обучаюсь новому и эффективно применяю полученные знания на практике.
+I strive to continually develop and improve. I learn new things quickly and apply the acquired knowledge effectively.
 
-В команде чувствую себя комфортно и быстро нахожу общий язык с коллективом.
+I feel comfortable in a team and quickly find common ground with colleagues.
 
-Я заинтересован в автоматизации и постоянно развиваюсь в этом направлении.
-Успешно справляюсь с ручным тестированием, обожаю классическое ad-hoc тестирование (исследовательское), а также сложные задачи E2E тестирования.
+I am interested in automation and continually developing in this field. I am proficient in manual testing, enjoy classic ad-hoc testing (exploratory), and excel at complex E2E testing tasks.
 
-Работаю в Linux/Windows/MacOS.
+I work across Linux, Windows, and macOS.
 
-Предпочитаю удаленный формат работы, хотя это не является критичным.
-Базово изучал PHP, на нем получил основной опыт написания E2E тестов.
-В настоящее время изучаю Python и основы Go.
+I prefer remote work, though it's not a strict requirement. I have basic knowledge of PHP, where I gained my initial experience in writing E2E tests. Currently, I am studying Python and the basics of Go.
 
-В свободное время увлекаюсь практической стрельбой, настольным теннисом, дартсом и карточными играми, особенно покером. Люблю мото-спорт.
+In my free time, I enjoy practical shooting, table tennis, darts, and card games, especially poker. I also love motorsports.
