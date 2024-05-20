@@ -5,7 +5,7 @@ period: 2018-2022
 link: https://spectrumdata.ru/
 location: Россия, г.Екатеринбург
 stack: [PHP, GitLAB, Kibana / Grafana]
-weight: 20
+weight: 30
 ---
 
 Процентное соотношение тестирования:

@@ -5,7 +5,7 @@ period: 2022-2023
 link: https://Noones.com/
 location: USA
 stack: [PHP, GitLAB, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana / Grafana, k8s/k9s]
-weight: 10
+weight: 40
 ---
 
 Процентное соотношение тестирования:

@@ -5,7 +5,7 @@ period: 2016-2018
 link: https://it.mvd.ru/
 location: Россия, Тюменская область
 stack: [Active Directory, RDP, VipNet]
-weight: 30
+weight: 20
 ---
 
 Группа информационных технологий связи и защиты информации.

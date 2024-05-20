@@ -5,7 +5,7 @@ period: 2006-2018
 link: https://utair.ru/
 location: Россия, Тюменская область
 stack: [Active Directory, RDP, PL\SQL, Oracle, Delphy6, BDE administator, Альфа, 1С]
-weight: 40
+weight: 10
 ---
 
 Сопровождение и поддержка программных продуктов (1С, Альфа, самописные продукты, и все остальное ПО включая PL\SQL, Oracle, Delphy6, BDE administrator)
