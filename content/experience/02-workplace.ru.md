@@ -4,7 +4,7 @@ project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / и пр.
 period: 2018-2022
 link: https://spectrumdata.ru/
 location: Россия, г.Екатеринбург
-stack: [PHP, GitLab, Kibana / Grafana, Selenium Webdriver]
+stack: [PHP, GitLab, Kibana/Grafana, Selenium Webdriver]
 weight: 30
 ---
 
