@@ -21,21 +21,23 @@ params:
   keywords: [SamoylovDN, cv]
   description: SamoylovDN CV
 
-languageCode: en-us
+# languageCode: en-us
+languageCode: ru-RU
 defaultContentLanguage: ru
 languages:
+    ru:
+    languageName: Русский
+    title: Резюме - Самойлов Д.Н. (Тестировщик)
+    weight: 10
+    params:
+      cvLink: /ru/cv.pdf
+      openGraphImageName: opengraph-ru.png
   en:
     languageName: English
     title: CV - SamoylovDN QA-Engineer
-    weight: 10
+    weight: 5
     params:
       cvLink: /cv.pdf
       openGraphImageName: opengraph-en.png
 
-  ru:
-    languageName: Русский
-    title: Резюме - Самойлов Д.Н. (Тестировщик)
-    weight: 5
-    params:
-      cvLink: /ru/cv.pdf
-      openGraphImageName: opengraph-ru.png
+
