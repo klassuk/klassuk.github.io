@@ -1,8 +1,8 @@
 items:
-  - title: cv-klassuk@10-01.win
+  - title: samoylov.dmtiry@gmail.com
     icon: email
-    link: 'mailto:cv-klassuk@10-01.win'
-  - title: Telegram {{< icon call-out >}} + {{< icon messages >}}
+    link: 'mailto:samoylov.dmtiry@gmail.com'
+  - title: Telegram {{< icon call-out > }} + {{< icon messages >}}
     icon: telegram
     link: https://devnullable.t.me/
   - title: GitHub
