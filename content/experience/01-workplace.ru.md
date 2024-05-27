@@ -1,5 +1,5 @@
 ---
-title: Bitlab
+title: Software Test Engineer
 project: Noones.com
 period: 2022-2023
 link: https://Noones.com/
