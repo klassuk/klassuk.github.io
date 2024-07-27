@@ -1,21 +1,34 @@
 ---
-title: QA Lead Engineer
-project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / and etc.
-period: 2018-2022
-link: https://spectrumdata.ru/
-location: Russia, Ekaterinburg
-stack: [PHP, GitLab, Kibana/Grafana, Selenium Webdriver]
-weight: 30
+title: Software Test Engineer
+project: Noones.com
+period: 2022-2023
+link: https://Noones.com/
+location: USA (remote)
+stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana, k8s/k9s]
+weight: 40
 ---
 
-As a QA Engineer, my role was to ensure the high quality and functionality of the developed product, as well as to develop and implement effective testing approaches for various services, including APIs, web applications, mobile applications, and automated tests integrated into the continuous development process (CI/CD).
+Responsibilities:
 
-I specialized in using Selenium WebDriver and Laravel Dusk for web application test automation. During my time at the company, I also performed basic PHP development tasks, which allowed me to not only address minor issues but also actively participate in development.
+- Ensuring the high quality of the software product and creating and maintaining the E2E test suite for noones.com and related services.
+- Working with microservice architecture and monolithic applications.
+- Maintaining the E2E testing repository, conducting code reviews, and improving the quality of tests.
+- Auditing the logic of existing, modified, and new components.
+- Implementing product improvements aimed at enhancing user focus, improving user experience, and increasing application stability.
 
-My responsibilities included working on multiple projects simultaneously, effectively collaborating with developers, project managers, designers, SEO specialists, and other team members. I actively contributed to project development, from programming and organization to conducting motivational events, brainstorming sessions, lectures, and training. Additionally, I was involved in generating and managing tasks, coordinating approvals at various levels, and advocating for important business objectives.
 
-My work also involved overseeing product rollout processes, making release and rollback decisions, conducting regression tests according to checklists and/or smoke testing, as well as stress testing in an environment with a large number of developers (more than 12 developers per tester). I also conducted interviews and managed the testing team.
+Achievements:
 
-Moreover, I actively maintained automated tests, ensuring their dependencies, code style, and architecture were up-to-date, and guaranteeing their effective operation.
+- Implemented a "Shifting Left Testing" strategy within the team for early detection and resolution of issues.
+- Identified and corrected logical errors that directly impacted client fees, resulting in increased company revenue.
+- Managed tasks at all stages of development, from approval and justification to release.
+- Participated in the support and creation of E2E tests in PHP (both CI/CD and locally).
+- Analyzed and fixed existing tests in Kotlin (flaky tests).
+- Monitored and resolved arising issues and incidents.
+- Developed a system for verifying key functionalities of the payment service using E2E tests.
+- Contributed to the initial development and implementation of a mock service responsible for transaction processing.
+- Took part in the development and deployment of a project (web/mobile app) from scratch.
 
-backend (40%), frontend (35%), mobile (25%).
+My experience at noones.com not only improved product quality but also brought significant benefits to the company by increasing revenue and enhancing user satisfaction.
+
+backend (60%), frontend (35%), mobile (5%).

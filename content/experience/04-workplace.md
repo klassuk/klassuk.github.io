@@ -1,13 +1,17 @@
 ---
-title: Software Engineer
-project: UTair Aviation JSC and Surgut Airport
-period: 2006-2018
-link: https://utair.ru/
+title: Communications and Information Protection Engineer
+project: MVD Russia
+period: 2016-2018
+link: https://it.mvd.ru/
 location: Russia, Tyumen Region
-stack: [Active Directory, RDP, PL/SQL, Oracle, Delphy6, BDE administator, Альфа, 1С]
-weight: 10
+stack: [Active Directory, RDP, VipNet, Cisco, MicroTik]
+weight: 20
 ---
 
-I provided maintenance and support for software products (1C, Alpha, custom-built applications, and other software including PL/SQL, Oracle, Delphi 6, and BDE Administrator).
-I Raised and ensured the functionality of the accounting department, developing solutions that were subsequently adopted by other departments and regions.
-I conducted extensive functional testing, documented and improved functionalities, wrote bug reports, and performed manual testing.
+Information Technology, Communications, and Information Security Group
+I was responsible for establishing and optimizing communication between departments, developing methods, and organizing the architecture. I ensured network security, including internet and departmental channels.
+I tested web modules of the departmental network, wrote bug reports, and created checklists.
+
+I provided setup and support for all infrastructure components based on Cisco and MikroTik equipment.
+
+I also handled the commissioning and setup of workstations (ISOD), including remote workstations.
