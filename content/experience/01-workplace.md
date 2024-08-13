@@ -29,12 +29,12 @@ Contributed significantly to the integration of an updated map displaying inform
 
 Skills and Tools:
 
-Programming Language: PHP
-Unit Testing: PHP
-Code Review Platform: GitLab
-Bug Tracker: Kaiten
-Documentation and Test Plans: Kaiten
-Test Cases: TestRail, Allure TestOps
-API Testing: Postman
+- Programming Language: PHP
+- Unit Testing: PHP
+- Code Review Platform: GitLab
+- Bug Tracker: Kaiten
+- Documentation and Test Plans: Kaiten
+- Test Cases: TestRail, Allure TestOps
+- API Testing: Postman
 
 My experience at Restaurant Guru significantly improved team processes and practices, and helped focus attention on key areas requiring optimization. My involvement spanned various development areas: backend (30%), frontend (25%), and mobile (45%).
