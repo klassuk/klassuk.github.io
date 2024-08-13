@@ -29,6 +29,20 @@ Achievements:
 - Contributed to the initial development and implementation of a mock service responsible for transaction processing.
 - Took part in the development and deployment of a project (web/mobile app) from scratch.
 
+Skills and Tools:
+
+Programming Language: PHP
+Unit Testing: PHP
+Code Review Platform: GitLab
+Bug Tracker: Kaiten
+Documentation and Test Plans: Kaiten
+Test Cases: TestRail, Allure TestOps
+API Testing: Postman
+BD: PostgreSQL
+MQ: RabbitMQ
+logging: Kibana/Grafana
+Deployment and management tools: demo-box, Kubernetes (k8s\k9s)
+
 My experience at noones.com not only improved product quality but also brought significant benefits to the company by increasing revenue and enhancing user satisfaction.
 
 backend (60%), frontend (35%), mobile (5%).
