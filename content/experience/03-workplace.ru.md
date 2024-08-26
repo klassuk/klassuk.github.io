@@ -1,5 +1,5 @@
 ---
-title: QA Lead Engineer
+title: Лидер отдела тестирования
 project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / и пр.
 period: 2018-2022
 link: https://spectrumdata.ru/
