@@ -2,8 +2,8 @@
 title: Testing department leader
 project: restaurantguru.com
 period: 2024-2024
-link: https://restaurantguru.com/ (restaurant business)
-location: USA (remote)
+link: https://restaurantguru.com/
+location: USA (remote) (restaurant business)
 stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana]
 weight: 50
 ---

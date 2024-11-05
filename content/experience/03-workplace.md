@@ -3,7 +3,7 @@ title: QA Lead Engineer
 project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / and etc.
 period: 2018-2022
 link: https://spectrumdata.ru/
-location: Russia, Ekaterinburg
+location: Russia, Ekaterinburg (data aggregation and processing for b2b & b2c)
 stack: [PHP, GitLab, Kibana/Grafana, Selenium Webdriver]
 weight: 30
 ---

@@ -2,8 +2,8 @@
 title: Лидер отдела тестирования
 project: restaurantguru.com
 period: 2024-2024
-link: https://restaurantguru.com/ (ресторанный бизнес)
-location: USA (удаленно)
+link: https://restaurantguru.com/
+location: USA (удаленно) (ресторанный бизнес)
 stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana]
 weight: 50
 ---

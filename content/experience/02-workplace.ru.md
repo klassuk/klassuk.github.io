@@ -2,8 +2,8 @@
 title: Software Test Engineer
 project: Noones.com & Paxful.com
 period: 2022-2023
-link: https://Noones.com/ (финтех)
-location: USA (удаленно)
+link: https://Noones.com/
+location: USA (удаленно)(финтех)
 stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana, k8s/k9s]
 weight: 40
 ---

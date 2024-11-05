@@ -3,7 +3,7 @@ title: Лидер отдела тестирования
 project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / и пр.
 period: 2018-2022
 link: https://spectrumdata.ru/
-location: Россия, г.Екатеринбург
+location: Россия, г.Екатеринбург (агрегация и обработка данных для b2b & b2c)
 stack: [PHP, GitLab, Kibana/Grafana, Selenium Webdriver]
 weight: 30
 ---
