@@ -1,8 +1,8 @@
 ---
 title: Software Test Engineer
-project: Noones.com
+project: Noones.com & Paxful.com
 period: 2022-2023
-link: https://Noones.com/
+link: https://Noones.com/ (Fintech)
 location: USA (remote)
 stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana, k8s/k9s]
 weight: 40
@@ -15,7 +15,6 @@ Responsibilities:
 - Maintaining the E2E testing repository, conducting code reviews, and improving the quality of tests.
 - Auditing the logic of existing, modified, and new components.
 - Implementing product improvements aimed at enhancing user focus, improving user experience, and increasing application stability.
-
 
 Achievements:
 
@@ -41,8 +40,8 @@ Skills and Tools:
 - BD: PostgreSQL
 - MQ: RabbitMQ
 - logging: Kibana/Grafana
-- Deployment and management tools: demo-box, Kubernetes (k8s\k9s)
+- Deployment and management tools: Docker, demo-box, Kubernetes (k8s\k9s)
 
-My experience at noones.com not only improved product quality but also brought significant benefits to the company by increasing revenue and enhancing user satisfaction.
+My experience at noones.com & paxful.com not only improved product quality but also brought significant benefits to the company by increasing revenue and enhancing user satisfaction.
 
 backend (60%), frontend (35%), mobile (5%).

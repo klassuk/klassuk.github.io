@@ -8,6 +8,20 @@ stack: [PHP, GitLab, Kibana/Grafana, Selenium Webdriver]
 weight: 30
 ---
 
+Skills and Tools:
+
+- Programming Language: PHP
+- Unit Testing: PHP
+- Code Review Platform: GitLab
+- Bug Tracker: YouTrack
+- Documentation and Test Plans: Confluence
+- Test Cases: Confluence
+- API Testing: Swagger/Postman/Insomnia
+- BD: PostgreSQL
+- MQ: RabbitMQ
+- logging: Kibana/Grafana
+- Deployment and management tools: Docker, Kubernetes (k8s)
+
 As a QA Engineer, my role was to ensure the high quality and functionality of the developed product, as well as to develop and implement effective testing approaches for various services, including APIs, web applications, mobile applications, and automated tests integrated into the continuous development process (CI/CD).
 
 I specialized in using Selenium WebDriver and Laravel Dusk for web application test automation. During my time at the company, I also performed basic PHP development tasks, which allowed me to not only address minor issues but also actively participate in development.

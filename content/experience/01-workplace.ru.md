@@ -1,8 +1,8 @@
 ---
 title: Лидер отдела тестирования
 project: restaurantguru.com
-period: 2024-по текущий момент
-link: https://restaurantguru.com/
+period: 2024-2024
+link: https://restaurantguru.com/ (ресторанный бизнес)
 location: USA (удаленно)
 stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana]
 weight: 50
@@ -36,6 +36,7 @@ weight: 50
 - Инструкции и тестовые планы: Kaiten
 - Тест-кейсы: TestRail/Allure TestOps
 - API тестирование: Postman
+- Эмуляция и сниффинг: Android Studio / Charles proxy / Fiddler
 
 Мой опыт работы в Restaurant Guru позволил значительно улучшить процессы и практики внутри команды, а также направить внимание коллектива на ключевые аспекты, требующие оптимизации. Моё участие охватывало задачи в различных областях разработки:
 backend (30%), frontend (25%) и mobile (45%).

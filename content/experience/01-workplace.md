@@ -1,8 +1,8 @@
 ---
 title: Testing department leader
 project: restaurantguru.com
-period: 2024-now
-link: https://restaurantguru.com/
+period: 2024-2024
+link: https://restaurantguru.com/ (restaurant business)
 location: USA (remote)
 stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana]
 weight: 50
@@ -36,6 +36,7 @@ Skills and Tools:
 - Documentation and Test Plans: Kaiten
 - Test Cases: TestRail, Allure TestOps
 - API Testing: Postman
+- Emulation and sniffing: Android Studio / Charles proxy / Fiddler
 
 My experience at Restaurant Guru significantly improved team processes and practices, and helped focus attention on key areas requiring optimization. My involvement spanned various development areas: 
 backend (30%), frontend (25%), and mobile (45%).
