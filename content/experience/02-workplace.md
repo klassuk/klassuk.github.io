@@ -41,6 +41,7 @@ Skills and Tools:
 - MQ: RabbitMQ
 - logging: Kibana/Grafana
 - Deployment and management tools: Docker, demo-box, Kubernetes (k8s\k9s)
+- Parallelism of UI test runs: Moon
 
 My experience at noones.com & paxful.com not only improved product quality but also brought significant benefits to the company by increasing revenue and enhancing user satisfaction.
 
