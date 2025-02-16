@@ -27,6 +27,14 @@
               {{- end -}}
             </ul>
             {{ end -}}
+            {{ if .Params.tools }}
+            <ul class="list-inline">
+              <li class="list-inline-item">{{ i18n "experience.tools" }}:</li>
+              {{- range .Params.tools }}
+              <li class="list-inline-item"><span class="badge">{{ . }}</span></li>
+              {{- end -}}
+            </ul>
+            {{ end -}}
           </li>
           {{- end }}
           {{- end }}
