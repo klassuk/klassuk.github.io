@@ -6,7 +6,7 @@ link: https://restaurantguru.com/
 location: USA (remote) (restaurant business)
 stack: [Kotlin, PHP, TS\JS, Python]
 tools: [Kaiten, TestRail, Allure TestOps, Postman, DevTools, Android Studio (Logcat), Charles proxy, Fiddler]
-weight: 50
+weight: 60
 ---
 
 Responsibilities:

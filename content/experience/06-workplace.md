@@ -6,7 +6,7 @@ link:
 location: Russia, Moscow
 stack: [Kotlin, Swift, TS\JS, NodeJS, Python]
 tools: [GitLab, Jira, Confluence, TestRail, Swagger, Postman, DevTools, Android Studio (Logcat), Charles proxy, Sentry, RabbitMQ, Kibana, Docker]
-weight: 60
+weight: 50
 ---
 
 Responsibilities:

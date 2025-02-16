@@ -4,23 +4,28 @@ project: avtocod.ru / egrnreestroo.ru / profi.avtocod.ru / and etc.
 period: 2018-2022
 link: https://spectrumdata.ru/
 location: Russia, Ekaterinburg (data aggregation and processing for b2b & b2c)
-stack: [PHP, GitLab, Kibana/Grafana, Selenium Webdriver]
+stack: [Kotlin, Swift, JS, TS, PHP, Java, Go, Python, RabbitMQ, MongoDB, MySQL]
+tools: [GitLab, YouTrack, Jira, Confluence, Figma, Postman, Swagger, Insomnia, DevTools, Android Studio (Logcat), xCode (Simulator), Charles proxy, Fiddler, Wireshark, Kibana, Grafana, Sentry, DBeaver, Selenium Webdriver, Laravel Dusk]
 weight: 30
 ---
 
-Skills and Tools:
+Responsibilities:
 
-- Programming Language: PHP
-- Unit Testing: PHP
-- Code Review Platform: GitLab
-- Bug Tracker: YouTrack
-- Documentation and Test Plans: Confluence
-- Test Cases: Confluence
-- API Testing: Swagger/Postman/Insomnia
-- BD: PostgreSQL
-- MQ: RabbitMQ
-- logging: Kibana/Grafana
-- Deployment and management tools: Docker, Kubernetes (k8s)
+- Working with technical documentation, analyzing and refining it
+- Developing and applying effective approaches to testing services and integrations, including APIs
+- Testing web and mobile applications within an aggregator platform
+- Performing manual functional testing of component business logic
+- Conducting regression tests within release cycles
+- Performing stress testing to evaluate system performance under high client load
+- Testing integrations within the system and with external services
+- Automating web application testing using Selenium WebDriver + Laravel Dusk + PHP
+- Performing simple PHP development tasks
+- Overseeing the deployment process, making decisions on releases and rollbacks
+- Maintaining existing automated tests, tracking dependencies, ensuring code style and architecture consistency, and ensuring their effective operation
+- Integrating developed automated tests into the continuous development process (CI/CD)
+- Expanding the team, conducting interviews, and onboarding new members
+- Leading the testing team, decomposing tasks, planning, and overseeing work execution
+- Collaborating with developers, project managers, designers, SEO specialists, and other team members
 
 As a QA Engineer, my role was to ensure the high quality and functionality of the developed product, as well as to develop and implement effective testing approaches for various services, including APIs, web applications, mobile applications, and automated tests integrated into the continuous development process (CI/CD).
 
