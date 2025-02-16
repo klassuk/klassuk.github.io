@@ -5,7 +5,7 @@ period: 2006-2018
 link: https://utair.ru/
 location: Russia, Tyumen Region
 stack: [PL/SQL, Oracle, Delphy6, Альфа, 1С]
-tools: [Active Directory, RDP, BDE administator]
+tools: [Active Directory, RDP, BDE Administator]
 weight: 10
 ---
 

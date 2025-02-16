@@ -28,5 +28,6 @@ Achievements:
 - Participated in the integration and debugging of an AI bot, as well as its integration into the web application.
 - Contributed significantly to the integration of an updated map displaying information about restaurants.
 
-My experience at Restaurant Guru significantly improved team processes and practices, and helped focus attention on key areas requiring optimization. My involvement spanned various development areas: 
-backend (30%), frontend (25%), and mobile (45%)
+My experience at Restaurant Guru significantly improved team processes and practices, and helped focus attention on key areas requiring optimization. My involvement spanned various development areas:
+
+backend (30%), frontend (25%) and mobile (45%)

@@ -19,3 +19,5 @@ Responsibilities:
 - Testing integrations with payment and delivery services
 - Testing business logic of existing, modified, and newly added components
 - Managing tasks at all stages of development, from approval and justification to release deployment
+
+backend (30%), frontend (30%) and mobile (40%)

@@ -12,3 +12,5 @@ weight: 70
 Responsibilities:
 
 under construction
+
+backend (хх%), frontend (хх%) and mobile (хх%)
