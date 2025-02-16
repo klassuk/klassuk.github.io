@@ -3,7 +3,7 @@ title: Full Stack QA
 project: Besqozon
 period: 2023-2024
 link: 
-location: Russia, Moscow
+location: Russia, Moscow (remote) (restaurant business)
 stack: [Kotlin, Swift, TS\JS, NodeJS, Python]
 tools: [GitLab, Jira, Confluence, TestRail, Swagger, Postman, DevTools, Android Studio (Logcat), Charles proxy, Sentry, RabbitMQ, Kibana, Docker]
 weight: 50
