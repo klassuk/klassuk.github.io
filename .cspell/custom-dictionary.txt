@@ -1,6 +1,10 @@
 # Custom Dictionary Words
 Dmitry
+errorf
+getenv
+markdownify
 motorsports
+warnf
 администрирование
 Базово
 быстро
