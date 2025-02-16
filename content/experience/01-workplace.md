@@ -4,7 +4,8 @@ project: restaurantguru.com
 period: 2024-2024
 link: https://restaurantguru.com/
 location: USA (remote) (restaurant business)
-stack: [PHP, GitLab, TestRail, Allure TestOps, PostgreSQL, RabbitMQ, Kibana/Grafana]
+stack: [Kotlin, PHP, TS\JS, Python]
+tools: [Kaiten, TestRail, Allure TestOps, Postman, DevTools, Android Studio (Logcat), Charles proxy, Fiddler]
 weight: 50
 ---
 
@@ -27,16 +28,5 @@ Achievements:
 - Participated in the integration and debugging of an AI bot, as well as its integration into the web application.
 - Contributed significantly to the integration of an updated map displaying information about restaurants.
 
-Skills and Tools:
-
-- Programming Language: PHP
-- Unit Testing: PHP
-- Code Review Platform: GitLab
-- Bug Tracker: Kaiten
-- Documentation and Test Plans: Kaiten
-- Test Cases: TestRail, Allure TestOps
-- API Testing: Postman
-- Emulation and sniffing: Android Studio / Charles proxy / Fiddler
-
 My experience at Restaurant Guru significantly improved team processes and practices, and helped focus attention on key areas requiring optimization. My involvement spanned various development areas: 
-backend (30%), frontend (25%), and mobile (45%).
+backend (30%), frontend (25%), and mobile (45%)
