@@ -15,7 +15,7 @@ jobs:
   generate-pdf:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: peaceiris/actions-hugo@v3
         with: {hugo-version: 0.101.0, extended: true}
@@ -55,7 +55,7 @@ jobs:
       name: github-pages
       url: https://klassuk.github.io/
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: peaceiris/actions-hugo@v3
         with: {hugo-version: 0.101.0, extended: true}
@@ -63,15 +63,15 @@ jobs:
       - run: hugo --minify --baseURL "https://klassuk.github.io/" -d ./dist
         env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with: {name: cv-en.pdf, path: ./dist}
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with: {name: cv-ru.pdf, path: ./dist/ru}
 
       - uses: actions/configure-pages@v5
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with: {path: ./dist}
 
       - uses: actions/deploy-pages@v4
