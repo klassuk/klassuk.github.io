@@ -1,6 +1,6 @@
 ### QA Engineer
 
-My name is Dmitry, and I am {{< age year=1984 month=4 >}}. I entered the QA profession 7 years ago. I have a higher education degree in "Mathematical Software and Administration of Information Systems."
+My name is Dmitry, and I am {{< age year=1984 month=4 >}}. I came into the testing profession full-time in 2018. I have a higher education degree in "Mathematical Software and Administration of Information Systems."
 
 Since 2018, I have been working on commercial projects.
 
